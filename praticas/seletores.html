@@ -7,6 +7,10 @@
     <title>Document</title>
 
     <style>
+body{
+    background-color: blak;
+}
+
         article:nth-child(1) a{
             color: red;    
         }
@@ -29,6 +33,22 @@
 
         .destaque{
             background: yellow;
+        }
+
+        a[href="#"]{
+            opacity: .2;
+        }
+
+        a[href^="http"]{
+            color: red;
+        }
+
+        a[title]{
+            color: green;
+        }
+    
+        a[href$=".pdf"]{
+            text-decoration: none;
         }
 
     </style>
@@ -93,6 +113,15 @@
         <p>Parágrafo <a href="#">apenas um link com<b> negrito</b></a></p>
         <p>Parágrafo <a href="#">apenas um link com<b> negrito</b></a></p>
     </article>
+
+    <ul>
+        <li><a href="#">Link Falso</a></li>
+        <li><a href="#">Link Falso</a></li>
+        <li><a href="http://serfrontend.com" target="_blank">Link Externo</a></li>
+        <li><a href="qq.pdf" target="_blank">Link Externo</a></li>
+        <li><a href="../index.html" title="Veja o exercício anterior">Link Interno</a></li>
+
+    </ul>
 
     <br>
     <br>
