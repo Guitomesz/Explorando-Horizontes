@@ -256,7 +256,9 @@ input:focus, textarea:focus{
     font-weight: normal;
     color: rgba(255, 255, 255, 0.5);
 }
-
+.subtext-side-header{
+    color: whitesmoke;
+}
 .main-header-title strong{
     color: white;
     font-weight: normal;
@@ -267,7 +269,7 @@ input:focus, textarea:focus{
 }
 
 .main-header-link:hover{
-    color: aquamarine;
+    color: red;
 }
 
 .main-content{
