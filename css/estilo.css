@@ -240,7 +240,7 @@ input:focus, textarea:focus{
     left: 0;
     height: 100%;
     width:35%;
-    padding: 124px 54px 72px; 
+    padding: 124px 54px 72px;
     box-sizing: border-box;
     background-image: url("../imagens/overlay.png"), url("../imagens/bg.jpg");
     background-position: left top;
@@ -269,7 +269,7 @@ input:focus, textarea:focus{
 }
 
 .main-header-link:hover{
-    color: red;
+    color: aquamarine;
 }
 
 .main-content{
@@ -319,7 +319,7 @@ blockquote p:last-child{
     position:fixed;
     bottom: 0px;
     width: 35%;
-    padding: 0px 24px 72px 0px; 
+    padding: 0px 24px 72px 0px;
     box-sizing: border-box;
     text-align: right;
 }
